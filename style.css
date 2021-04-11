@@ -1,0 +1,441 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+h1,
+h2 {
+  font-size: 1em;
+  margin: 0;
+}
+
+a.nostyle,
+a.nostyle:visited {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+#linkedin i {
+  color: #0a66c2;
+}
+
+#linkedin:hover i {
+  color: #06407a;
+}
+
+#github i {
+  color: rgb(41, 41, 41);
+}
+
+#github:hover i {
+  color: black;
+}
+
+i {
+  font-size: 60px;
+}
+
+#links {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+
+#links > a > i {
+  padding-right: 20px;
+}
+
+#name {
+  width: 90%;
+  height: 150px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+#nameHeader {
+  height: 100%;
+  line-height: 150px;
+  text-align: center;
+  font-size: 70px;
+  letter-spacing: 2px;
+  vertical-align: middle;
+  margin: 0;
+  font-weight: bold;
+}
+
+#icons {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#icons > i {
+  padding-right: 20px;
+}
+
+#experience {
+  background-color: rgb(125, 125, 255);
+  animation-delay: 2.8s;
+}
+
+#experienceTwo {
+  background-color: rgb(158, 36, 62);
+  animation-delay: 3.8s;
+}
+
+.experience {
+  margin-left: auto;
+  margin-right: 60%;
+  margin-top: 100px;
+  padding: 10px 0px;
+  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+  background-color: rgb(125, 125, 255);
+  color: white;
+  text-align: right;
+}
+
+.experienceHeader {
+  margin: 0;
+  text-align: right;
+  padding-right: 20px;
+  padding-left: 10px;
+  letter-spacing: 2px;
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 34px;
+  font-weight: normal;
+}
+
+.work {
+  width: 90%;
+  margin: 50px auto;
+  max-width: 600px;
+  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+  padding: 25px 50px;
+}
+
+.workDiv {
+  padding-bottom: 30px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.workTitle {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.workLocation,
+.workTime {
+  display: inline-block;
+  font-weight: normal;
+}
+
+.workHeader {
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  padding-bottom: 50px;
+  text-shadow: 1px 0px 2px white;
+}
+
+.workLocation {
+  float: left;
+}
+
+.workTime {
+  float: right;
+}
+
+#workOne {
+  border-top: 5px solid rgb(125, 125, 255);
+  animation-delay: 3.3s;
+  color: rgb(125, 125, 255);
+}
+
+#workOneTitle {
+  color: rgb(125, 125, 255);
+}
+
+#workTwo {
+  border-top: 5px solid rgb(93, 192, 114);
+  margin-top: 75px;
+  animation-delay: 3.5s;
+  color: rgb(93, 192, 114);
+}
+
+#workThree {
+  border-top: 5px solid rgb(158, 36, 62);
+  margin-top: 75px;
+  animation-delay: 4s;
+  color: rgb(158, 36, 62);
+}
+
+#workTwoTitle {
+  color: rgb(93, 192, 114);
+}
+
+.mL {
+  width: 150px;
+  height: 3px;
+  top: 25px;
+  z-index: -2;
+  margin: 0 auto;
+
+  position: relative;
+  animation-name: example;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  border-radius: 0px;
+  animation-delay: 4.5s;
+}
+
+#block1 {
+  background-color: rgb(125, 125, 255);
+}
+
+#block2 {
+  background-color: rgb(93, 192, 114);
+}
+
+#block3 {
+  background-color: rgb(158, 36, 62);
+}
+
+@keyframes example {
+  0% {
+    left: 0px;
+    width: 150px;
+  }
+  25% {
+    left: 325px;
+    width: 50px;
+  }
+  50% {
+    left: 0px;
+    width: 150px;
+  }
+  75% {
+    left: -325px;
+    width: 50px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+@keyframes example2 {
+  0% {
+    left: 0px;
+    width: 150px;
+  }
+  25% {
+    left: 275px;
+    width: 50px;
+  }
+  50% {
+    left: 0px;
+    width: 150px;
+  }
+  75% {
+    left: -275px;
+    width: 50px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+@keyframes example3 {
+  0% {
+    left: 0px;
+    width: 150px;
+  }
+  25% {
+    left: 195px;
+    width: 50px;
+  }
+  50% {
+    left: 0px;
+    width: 150px;
+  }
+  75% {
+    left: -195px;
+    width: 50px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+@keyframes example4 {
+  0% {
+    left: 0px;
+    width: 100px;
+  }
+  25% {
+    left: 165px;
+    width: 50px;
+  }
+  50% {
+    left: 0px;
+    width: 100px;
+  }
+  75% {
+    left: -165px;
+    width: 50px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+@keyframes example5 {
+  0% {
+    left: 0px;
+    width: 75px;
+  }
+  25% {
+    left: 128px;
+    width: 25px;
+  }
+  50% {
+    left: 0px;
+    width: 75px;
+  }
+  75% {
+    left: -128px;
+    width: 25px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .work {
+    max-width: 500px;
+  }
+
+  .mL {
+    animation-name: example2;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .work {
+    max-width: 400px;
+    padding: 20px 20px;
+  }
+
+  #workOne {
+    border-top: 4px solid rgb(125, 125, 255);
+  }
+
+  #workTwo {
+    border-top: 4px solid rgb(93, 192, 114);
+  }
+
+  #workThree {
+    border-top: 4px solid rgb(158, 36, 62);
+  }
+
+  .workDiv {
+    font-size: 18px;
+  }
+
+  .workTitle {
+    font-size: 24px;
+  }
+
+  .workHeader {
+    font-size: 22px;
+  }
+
+  #nameHeader {
+    font-size: 50px;
+  }
+  .experienceHeader {
+    font-size: 22px;
+  }
+
+  .mL {
+    animation-name: example3;
+    top: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  i {
+    font-size: 46px;
+  }
+  .work {
+    max-width: 350px;
+    padding: 10px 15px;
+  }
+
+  .mL {
+    animation-name: example4;
+    top: 10px;
+    width: 100px;
+  }
+
+  #workOne {
+    border-top: 3px solid rgb(125, 125, 255);
+  }
+
+  #workTwo {
+    border-top: 3px solid rgb(93, 192, 114);
+  }
+
+  #workThree {
+    border-top: 3px solid rgb(158, 36, 62);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  i {
+    font-size: 30px;
+  }
+
+  #icons > i {
+    padding-right: 15px;
+  }
+
+  .experience {
+    margin-right: 50%;
+  }
+
+  .work {
+    max-width: 250px;
+  }
+
+  .workDiv {
+    font-size: 14px;
+  }
+
+  .workTitle {
+    font-size: 20px;
+  }
+
+  .workHeader {
+    font-size: 18px;
+  }
+
+  #nameHeader {
+    font-size: 35px;
+  }
+  .experienceHeader {
+    font-size: 18px;
+  }
+
+  .mL {
+    animation-name: example5;
+    width: 75px;
+  }
+}

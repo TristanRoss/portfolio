@@ -17,21 +17,11 @@ async function makeName() {
       h1.appendChild(div);
     }, i * 100);
   }
-  const randomColor = Math.floor(Math.random() * 17);
   h1.classList.add('animate__animated');
   h1.classList.add('animate__rubberBand');
   h1.style.margin = 0;
   h1.style.animationDelay = '2.5s';
   div.appendChild(h1);
-
-  div.addEventListener('mouseenter', (e) => {
-    div.classList.add('animate__animated');
-    div.classList.add('animate__pulse');
-    div.classList.add('animate__faster');
-    setTimeout(function () {
-      div.className = '';
-    }, 600);
-  });
 
   const icons = document.getElementById('icons').getElementsByTagName('i');
   for (let i = 0; i < icons.length; i++) {

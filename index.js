@@ -3,7 +3,7 @@ new fullpage('#fullpage', {
   licenseKey: 'gplv3-license',
   navigation: true,
   navigationPosition: 'right',
-  autoScrolling: true,
+  // autoScrolling: true,
   scrollHorizontally: true,
   controlArrowsHTML: [
     '<div class="fp-arrow"></div>',

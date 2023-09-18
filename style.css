@@ -1,6 +1,7 @@
 body {
   font-family: 'Rubik', sans-serif;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+  /* overflow-y: hidden; */
 }
 
 a {
@@ -33,7 +34,7 @@ a {
   animation: color 12s ease-in-out infinite;
   color: #c7f9cc;
   text-align: center;
-  /* height: 100%; */
+  /* height: 700px; */
 }
 
 @keyframes color {
@@ -545,26 +546,27 @@ a {
   }
   #nameDiv {
     margin-top: 0;
+    margin-bottom: 0;
   }
   .sum p {
-    margin-top: 0;
-    margin-bottom: 40px;
-    max-width: 250px;
     margin: 0 auto;
+    margin-top: 0;
+    max-width: 200px;
+    font-size: 20px;
   }
   #seattle {
-    max-height: 175px;
-    max-width: 150px;
+    max-height: 150px;
+    max-width: 125px;
   }
 
   #college {
-    max-height: 175px;
-    max-width: 150px;
+    max-height: 150px;
+    max-width: 125px;
   }
 
   #experience {
-    max-height: 175px;
-    max-width: 150px;
+    max-height: 150px;
+    max-width: 125px;
   }
   .fp-arrow {
     visibility: hidden;

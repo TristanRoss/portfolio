@@ -399,16 +399,16 @@ a {
   max-height: 100%;
 }
 
-#section2 {
+#section3 {
   background-color: black !important;
   color: white;
   font-size: 20px;
 }
-#section3 {
+#section2 {
   background-color: black !important;
   font-family: 'Arimo', sans-serif;
 }
-#section3 .work {
+#section2 .work {
   top: 0px;
   color: white;
   max-width: 30%;
@@ -419,7 +419,7 @@ a {
   padding-top: 0;
 }
 
-#section3 h1 {
+#section2 h1 {
   padding-top: 20px;
   margin-top: 0px;
   border-top: 2px solid white;
@@ -455,10 +455,10 @@ a {
   position: relative;
   top: 50px;
 }
-#section2 h2 {
+#section3 h2 {
   margin-bottom: 0;
 }
-#section2 p {
+#section3 p {
   margin-top: 0;
 }
 
@@ -587,10 +587,10 @@ a {
   #navbar {
     margin-top: 10px;
   }
-  #section3 h1 {
+  #section2 h1 {
     font-size: 24px;
   }
-  #section3 h2 {
+  #section2 h2 {
     font-size: 20px;
   }
   .links {

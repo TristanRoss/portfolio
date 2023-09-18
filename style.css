@@ -1,6 +1,6 @@
 body {
   font-family: 'Rubik', sans-serif;
-  /* font-size: 72px; */
+  overflow-x: hidden;
 }
 
 a {
@@ -170,14 +170,6 @@ a {
   }
 }
 
-/* .card {
-  background-color: rgb(47, 146, 169);
-  padding: 20px 40px;
-  border-radius: 20px;
-  box-shadow: 5px 10px 10px #0e0e0e;
-  color: white;
-} */
-
 #summary {
   display: flex;
   /* flex-wrap: wrap; */
@@ -194,6 +186,73 @@ a {
 #experience {
   max-height: 350px;
   max-width: 300px;
+}
+
+#subwayholder {
+  margin: 0 auto;
+  width: 100px;
+  animation: subwaymove 10s infinite ease-in-out;
+}
+
+#subway1 {
+  max-height: 100px;
+  max-width: 100px;
+}
+
+#cutetrain {
+  max-height: 50px;
+  max-width: 50px;
+}
+
+#trainholder {
+  margin: 0 auto;
+  width: 100px;
+  animation: trainmove 8s infinite ease-in-out;
+}
+
+@keyframes trainmove {
+  0% {
+    transform: translate(-150px, 0);
+  }
+  45% {
+    transform: translate(150px, 0);
+  }
+  55% {
+    transform: translate(150px, 0);
+  }
+  100% {
+    transform: translate(-150px, 0);
+  }
+}
+
+@keyframes subwaymove {
+  0% {
+    transform: translate(100px, 0);
+  }
+  10% {
+    transform: translate(100px, 0);
+  }
+  23% {
+    transform: translate(-120px, 30px);
+  }
+  36% {
+    transform: translate(-120px, 30px) rotateY(-180deg);
+  }
+  49% {
+    transform: translate(100px, 60px) rotateY(-180deg);
+  }
+  62% {
+    transform: translate(100px, 60px) rotateY(-180deg);
+  }
+  75% {
+    transform: translate(-120px, 30px) rotateY(-180deg);
+  }
+  88% {
+    transform: translate(-120px, 30px) rotateY(0);
+  }
+  100% {
+    transform: translate(100px, 0) rotateY(0);
+  }
 }
 
 #seattle {
@@ -347,15 +406,49 @@ a {
 }
 #section3 {
   background-color: black !important;
+  font-family: 'Arimo', sans-serif;
 }
 #section3 .work {
   top: 0px;
   color: white;
-  text-shadow: 2px 2px 2px black;
+  max-width: 30%;
+  min-width: 325px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px;
+  padding-top: 0;
 }
 
-#section3 h2 {
-  color: rgb(255, 83, 83);
+#section3 h1 {
+  padding-top: 20px;
+  margin-top: 0px;
+  border-top: 2px solid white;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+
+  display: inline-block;
+}
+
+.redcircle {
+  background-color: red;
+}
+
+.yellowcircle {
+  background-color: rgb(246, 255, 0);
+  color: black;
+}
+
+.circleletter {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  font-weight: bold;
+  font-size: 32px;
 }
 
 .work {
@@ -405,9 +498,6 @@ a {
   /* padding-bottom: 50px; */
   max-width: 400px;
   max-height: 90px;
-}
-#gm h1 {
-  /* margin: 0; */
 }
 #gm-logo {
   max-width: 50px;
@@ -459,6 +549,8 @@ a {
   .sum p {
     margin-top: 0;
     margin-bottom: 40px;
+    max-width: 250px;
+    margin: 0 auto;
   }
   #seattle {
     max-height: 175px;

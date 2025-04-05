@@ -468,10 +468,19 @@ a {
   margin: 0 auto;
   width: 100%;
 }
+
+#aws-logo {
+  max-width: 100px;
+  margin: 0 auto;
+  width: 100%;
+}
 #slide1 h2 {
-  color: #2684ff;
+  color: #f09436;
 }
 #slide2 h2 {
+  color: #2684ff;
+}
+#slide3 h2 {
   color: #6dc926;
 }
 #slide2 h2 {
@@ -505,12 +514,12 @@ a {
   width: 100%;
   margin-right: 5px;
 }
-#slide3 h2 {
+#slide4 h2 {
   color: #06c6d8;
   margin-top: 12px;
 }
 #slide3 p {
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 .fp-arrow.fp-prev {
   border-width: 20px 18px 20px 0;
